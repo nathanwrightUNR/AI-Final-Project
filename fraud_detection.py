@@ -89,7 +89,9 @@ X_test_scaled = scaler.transform(X_test)
 # make logistic regression model
 clf = LogisticRegression(
     class_weight={0: 1, 1: 99}, # tell the model its 1:99 imbalanced
-    random_state=42
+    random_state=42,
+    solver='liblinear',
+    C=0.01
 )
 
 clf.fit(X_train_scaled, y_train)
