@@ -14,3 +14,5 @@
 ### Run
 
 `python3 fraud_detection.py`
+
+**OR just paste into a google colab notebook with the installs uncommented**
