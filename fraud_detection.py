@@ -1,8 +1,8 @@
 ### Imports
 
-!pip install gradio
-!kaggle datasets download "bhadramohit/credit-card-fraud-detection"
-!unzip -o credit-card-fraud-detection.zip
+# !pip install gradio
+# !kaggle datasets download "bhadramohit/credit-card-fraud-detection"
+# !unzip -o credit-card-fraud-detection.zip
 
 import numpy as np
 import pandas as pd
