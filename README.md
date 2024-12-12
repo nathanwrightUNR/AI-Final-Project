@@ -11,6 +11,9 @@
 - pandas
 - imblearn
 
+### Download Dataset:
+https://www.kaggle.com/datasets/bhadramohit/credit-card-fraud-detection
+
 ### Run
 
 `python3 fraud_detection.py`
